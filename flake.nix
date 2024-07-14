@@ -30,5 +30,6 @@
           };
           default = self.packages.${system}.mealie;
         };
+        nixosModules.mealie = import ./service.nix self.packages.${system}.default;
       });
 }
