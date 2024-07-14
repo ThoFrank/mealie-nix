@@ -10,7 +10,7 @@
     };
 
     mealie = {
-      url = "github:mealie-recipes/mealie";
+      url = "github:mealie-recipes/mealie/v1.10.2";
       flake = false;
     };
     
@@ -25,7 +25,7 @@
       in
       {
         packages = {
-          myapp = mkPoetryApplication {
+          mealie = mkPoetryApplication {
             projectDir = mealie;
             python = pkgs.python311;
             overrides = overrides.withDefaults (final: prev: {
@@ -76,7 +76,7 @@
               );
             });
           };
-          default = self.packages.${system}.myapp;
+          default = self.packages.${system}.mealie;
         };
       });
 }

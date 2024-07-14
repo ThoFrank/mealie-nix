@@ -39,15 +39,16 @@
     "mealie": {
       "flake": false,
       "locked": {
-        "lastModified": 1720519936,
-        "narHash": "sha256-J6uGX9vIgEFQ03DhKphRhLHl7eRNqsfvEzJQ2SiKLvI=",
+        "lastModified": 1720145284,
+        "narHash": "sha256-p/kXxWtBak0SYwbTeAeWAOvF7pgqO+ipapK+JID2lk4=",
         "owner": "mealie-recipes",
         "repo": "mealie",
-        "rev": "923a59791adcaaf66a3864a911b026edff926e17",
+        "rev": "e344f3f1e6672d673f6e0899a5cef28aa8beb2f0",
         "type": "github"
       },
       "original": {
         "owner": "mealie-recipes",
+        "ref": "v1.10.2",
         "repo": "mealie",
         "type": "github"
       }
